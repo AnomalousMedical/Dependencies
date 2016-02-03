@@ -41,3 +41,5 @@
 /oggvorbis
 /FreeImage.NET
 /MSBuild
+/Mono/OSXBuild/MonoMac.HttpClient
+/Mono/OSXBuild/monomac
