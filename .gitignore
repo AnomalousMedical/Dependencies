@@ -43,3 +43,9 @@
 /MSBuild
 /Mono/OSXBuild/MonoMac.HttpClient
 /Mono/OSXBuild/monomac
+/Bullet/iOSBuild
+/libRocket/iOSBuild
+/MyGUI/iOSBuild
+/Ogre/iOSBuild
+/OgreDeps/iOSBuild
+/OgreDeps/iOSInstall
