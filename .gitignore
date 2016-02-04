@@ -49,3 +49,10 @@
 /Ogre/iOSBuild
 /OgreDeps/iOSBuild
 /OgreDeps/iOSInstall
+/Bullet/OSXBuild
+/libRocket/OSXBuild
+/Mono/OSXBuild/bin
+/MyGUI/OSXBuild
+/Ogre/OSXBuild
+/OgreDeps/OSXBuild
+/OgreDeps/OSXInstall

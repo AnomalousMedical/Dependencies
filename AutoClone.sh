@@ -20,3 +20,6 @@ hg clone https://threax@bitbucket.org/threax/ogre Ogre/src
 hg clone https://threax@bitbucket.org/threax/ogredeps OgreDeps/src
 git clone https://github.com/Anomalous-Software/OkHttp-Xamarin.git OkHttp-Xamarin
 git clone https://github.com/Anomalous-Software/openal-soft.git OpenALSoft/src
+git clone https://github.com/Anomalous-Software/monomac.git Mono/OSXBuild/monomac
+git clone https://github.com/Anomalous-Software/maccore.git Mono/OSXBuild/monomac/maccore
+git clone https://github.com/Anomalous-Software/MonoMac.HttpClient.git Mono/OSXBuild/MonoMac.HttpClient
