@@ -14,6 +14,7 @@
 /Newtonsoft.Json
 /Bullet/Win64Build
 /Mono/lib/Release
+/Mono/lib/Debug
 /MyGUI/Win64Build
 /Ogre/Win64Build
 /OgreDeps/Win64Build
