@@ -9,7 +9,6 @@ cd %ThisFolder%\src
 set SolutionName=angle.sln
 set Platform=Win32
 
-msbuild.exe /m "%SolutionName%" /property:Configuration=Debug;Platform=%Platform%
-msbuild.exe /m "%SolutionName%" /property:Configuration=Release;Platform=%Platform%
+msbuild.exe /m "%SolutionName%" /property:Configuration=Release;Platform=%Platform% /t:Clean,Build
 
 cd %CurrentDirectory%
