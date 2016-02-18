@@ -1,3 +1,6 @@
+::First angle for gles on Windows
+call AutoBuild_Angle_x86.bat
+
 ::Best to do Ogre first
 call OgreDeps\AutoBuild_x86.bat
 call Ogre\AutoBuild_x86.bat
