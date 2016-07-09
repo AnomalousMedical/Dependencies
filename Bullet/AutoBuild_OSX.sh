@@ -31,7 +31,7 @@ cd "$BUILD_FOLDER"
 cmake -G "$GENERATOR_NAME" $CMAKE_SETTINGS $SOURCE_FOLDER
 
 #Build with XCode
-xcodebuild -configuration Release SHARED_PRECOMPS_DIR="$BUILD_FOLDER/SharedTmpPCH"
+xcodebuild -configuration Release SHARED_PRECOMPS_DIR="$BUILD_FOLDER/SharedTmpPCH" ARCHS="i386 x86_64"
 
 #Finish up
 cd "$START_PATH"
