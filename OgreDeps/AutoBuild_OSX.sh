@@ -38,5 +38,10 @@ cmake -G "$GENERATOR_NAME" $CMAKE_SETTINGS $SOURCE_FOLDER
 #Build with XCode
 xcodebuild -configuration Release -target install SHARED_PRECOMPS_DIR="$BUILD_FOLDER/SharedTmpPCH" ARCHS="i386 x86_64"
 
+#The freeimage dylib does not copy with the correct install name, so copy it again with what we actually want
+xcodebuild -configuration Release -target FreeImage SHARED_PRECOMPS_DIR="$BUILD_FOLDER/SharedTmpPCH" ARCHS="i386 x86_64" DYLIB_INSTALL_NAME_BASE="@executable_path/../MonoBundle" LD_DYLIB_INSTALL_NAME="@executable_path/../MonoBundle/libFreeImage.dylib"
+
+cp "$BUILD_FOLDER/src/FreeImage/Release/libFreeImage.dylib" "$OUTPUT_FOLDER/lib/libFreeImage.dylib"
+
 #Finish up
 cd "$START_PATH"
