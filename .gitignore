@@ -57,3 +57,5 @@
 /Ogre/OSXBuild
 /OgreDeps/OSXBuild
 /OgreDeps/OSXInstall
+/OkHttpClient
+/square-bindings
