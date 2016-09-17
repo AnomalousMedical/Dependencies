@@ -18,3 +18,5 @@ hg clone https://threax@bitbucket.org/threax/ogredeps %~dp0OgreDeps/src
 git clone https://github.com/Anomalous-Software/OkHttp-Xamarin.git OkHttp-Xamarin
 git clone https://github.com/Anomalous-Software/openal-soft.git %~dp0OpenALSoft/src
 git clone https://github.com/Anomalous-Software/openal-soft-apportable.git %~dp0OpenALSoft/srcAndroid
+git clone https://github.com/Anomalous-Software/OkHttpClient.git %~dp0OkHttpClient
+git clone https://github.com/Anomalous-Software/square-bindings.git %~dp0square-bindings
