@@ -28,6 +28,8 @@ set Variables=-D OGRE_BUILD_COMPONENT_MESHLODGENERATOR=0 ^
 -D OGRE_INSTALL_PDB=0 ^
 -D OGRE_INSTALL_SAMPLES=0 ^
 -D OGRE_INSTALL_TOOLS=0 ^
+-D OGRE_BUILD_COMPONENT_HLMS=0 ^
+-D OGRE_BUILD_COMPONENT_PROPERTY=0 ^
 -D EGL_INCLUDE_DIR=%RootDependencyFolder%\angle-ms\include\EGL ^
 -D EGL_egl_LIBRARY=%RootDependencyFolder%\angle-ms\src\Release_Win32\lib\libEGL.lib ^
 -D OPENGLES2_INCLUDE_DIR=%RootDependencyFolder%\angle-ms\include ^
