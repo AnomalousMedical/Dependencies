@@ -1,5 +1,5 @@
 ::Configuration Settings
-set GeneratorName=Visual Studio 14
+set GeneratorName=Visual Studio 15
 set Platform=Win32
 set SrcFolder=src\Build
 set BuildFolder=WindowsBuild
