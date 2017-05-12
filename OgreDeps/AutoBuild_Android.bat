@@ -17,7 +17,7 @@ set InstallPath=%ThisFolder%%InstallFolder%
 
 ::Use Modified CMake
 set OldPath=%PATH%
-set PATH=%RootDependencyFolder%CMake-Modified\WindowsBuild\bin\Release;%PATH%
+::set PATH=%RootDependencyFolder%CMake-Modified\WindowsBuild\bin\Release;%PATH%
 
 ::Variables have to be defined here to get install path right, change if needed
 set Variables=-D CMAKE_INSTALL_PREFIX=%InstallPath% ^
@@ -47,7 +47,7 @@ mkdir %BuildPath%
 mkdir %InstallPath%
 cd %BuildPath%
 
-cmake -G "%GeneratorName%" %Variables% %SrcPath%
+%RootDependencyFolder%CMake-Modified\WindowsBuild\bin\Release\cmake -G "%GeneratorName%" %Variables% %SrcPath%
 
 :: Small hack to fix the output file names since cmake cannot do this on its own for now
 %RootDependencyFolder%CMakeHacks.exe replace %BuildPath% *.vcxproj "<ObjectFileName>$(IntDir)</ObjectFileName>" "<ObjectFileName>$(IntDir)%%(filename).o</ObjectFileName>"
