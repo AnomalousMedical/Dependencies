@@ -1,5 +1,5 @@
 ::Per Project Configuration Settings
-set GeneratorName=Visual Studio 14 ARM
+set GeneratorName=Visual Studio 15 ARM
 set SrcFolder=src
 set BuildFolder=AndroidBuild
 set SolutionName=OGRE.sln

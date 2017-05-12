@@ -2,7 +2,7 @@
 set GeneratorName=NMake Makefiles
 set SrcFolder=src\Build
 set BuildFolder=AndroidBuild
-set GeneratorName=Visual Studio 14 ARM
+set GeneratorName=Visual Studio 15 ARM
 set Platform=ARM
 set SolutionName=libRocket.sln
 
