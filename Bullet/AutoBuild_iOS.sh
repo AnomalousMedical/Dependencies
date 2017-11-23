@@ -29,7 +29,7 @@ cd "$BUILD_FOLDER"
 cmake -G "$GENERATOR_NAME" $CMAKE_SETTINGS $SOURCE_FOLDER
 
 #Build with XCode
-xcodebuild -configuration Release -sdk iphoneos ONLY_ACTIVE_ARCH=NO ARCHS="armv7 armv7s arm64" SHARED_PRECOMPS_DIR="$BUILD_FOLDER/SharedTmpPCH_device"
+xcodebuild -configuration Release -sdk iphoneos ONLY_ACTIVE_ARCH=NO ARCHS="arm64" SHARED_PRECOMPS_DIR="$BUILD_FOLDER/SharedTmpPCH_device"
 
 #Finish up
 cd "$START_PATH"
