@@ -21,3 +21,4 @@ git clone https://github.com/Anomalous-Software/openal-soft-apportable.git %~dp0
 git clone https://github.com/Anomalous-Software/OkHttpClient.git %~dp0OkHttpClient
 git clone https://github.com/Anomalous-Software/square-bindings.git %~dp0square-bindings
 git clone https://github.com/Anomalous-Software/square-bindings-externals.git %~dp0square-bindings/externals
+git clone https://github.com/Anomalous-Software/openvr.git
