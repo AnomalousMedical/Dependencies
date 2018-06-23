@@ -13,12 +13,12 @@ git clone https://github.com/Anomalous-Software/MSBuildExtensions.git %~dp0MSBui
 git clone https://github.com/Anomalous-Software/mygui.git %~dp0MyGUI/Src
 git clone https://github.com/Anomalous-Software/Newtonsoft.Json.git Newtonsoft.Json
 git clone https://github.com/Anomalous-Software/oggvorbis.git %~dp0oggvorbis
-hg clone https://threax@bitbucket.org/threax/ogre %~dp0Ogre/src
-hg clone https://threax@bitbucket.org/threax/ogredeps %~dp0OgreDeps/src
+git clone --branch Anomalous https://github.com/Anomalous-Software/ogre.git %~dp0Ogre/src
+git clone https://github.com/Anomalous-Software/OgreDeps.git %~dp0OgreDeps/src
 git clone https://github.com/Anomalous-Software/OkHttp-Xamarin.git OkHttp-Xamarin
 git clone https://github.com/Anomalous-Software/openal-soft.git %~dp0OpenALSoft/src
 git clone https://github.com/Anomalous-Software/openal-soft-apportable.git %~dp0OpenALSoft/srcAndroid
 git clone https://github.com/Anomalous-Software/OkHttpClient.git %~dp0OkHttpClient
 git clone https://github.com/Anomalous-Software/square-bindings.git %~dp0square-bindings
 git clone https://github.com/Anomalous-Software/square-bindings-externals.git %~dp0square-bindings/externals
-git clone https://github.com/Anomalous-Software/openvr.git
+git clone https://github.com/Anomalous-Software/openvr.git openvr
