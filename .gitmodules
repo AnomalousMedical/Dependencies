@@ -47,3 +47,6 @@
 	path = Ogre/src
 	url = https://github.com/AnomalousMedical/ogre.git
 	branch = Anomalous
+[submodule "CMake-Modified/src"]
+	path = CMake-Modified/src
+	url = https://github.com/Anomalous-Software/CMake.git
