@@ -50,3 +50,6 @@
 [submodule "CMake-Modified/src"]
 	path = CMake-Modified/src
 	url = https://github.com/Anomalous-Software/CMake.git
+[submodule "openvr"]
+	path = openvr
+	url = https://github.com/AnomalousMedical/openvr.git
