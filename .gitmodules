@@ -43,3 +43,7 @@
 [submodule "OgreDeps/src"]
 	path = OgreDeps/src
 	url = https://github.com/AnomalousMedical/OgreDeps.git
+[submodule "Ogre/src"]
+	path = Ogre/src
+	url = https://github.com/AnomalousMedical/ogre.git
+	branch = Anomalous
