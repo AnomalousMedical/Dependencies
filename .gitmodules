@@ -1,0 +1,45 @@
+[submodule "angle-ms"]
+	path = angle-ms
+	url = https://github.com/AnomalousMedical/angle.git
+[submodule "BEPUPhysics"]
+	path = BEPUPhysics
+	url = https://github.com/AnomalousMedical/BEPUPhysics.git
+[submodule "Bullet/src"]
+	path = Bullet/src
+	url = https://github.com/AnomalousMedical/bullet3.git
+[submodule "DotNetZip"]
+	path = DotNetZip
+	url = https://github.com/AnomalousMedical/DotNetZip.git
+[submodule "FreeImage.NET"]
+	path = FreeImage.NET
+	url = https://github.com/AnomalousMedical/FreeImage.NET.git
+[submodule "Irony"]
+	path = Irony
+	url = https://github.com/AnomalousMedical/Irony.git
+[submodule "libRocket/src"]
+	path = libRocket/src
+	url = https://github.com/AnomalousMedical/libRocket.git
+[submodule "Lucene.net"]
+	path = Lucene.net
+	url = https://github.com/AnomalousMedical/Lucene.NET.git
+[submodule "MSBuild"]
+	path = MSBuild
+	url = https://github.com/AnomalousMedical/MSBuildExtensions.git
+[submodule "MyGUI/Src"]
+	path = MyGUI/Src
+	url = https://github.com/AnomalousMedical/mygui.git
+[submodule "Newtonsoft.Json"]
+	path = Newtonsoft.Json
+	url = https://github.com/AnomalousMedical/Newtonsoft.Json.git
+[submodule "oggvorbis"]
+	path = oggvorbis
+	url = https://github.com/AnomalousMedical/oggvorbis.git
+[submodule "OpenALSoft/src"]
+	path = OpenALSoft/src
+	url = https://github.com/AnomalousMedical/openal-soft.git
+[submodule "OpenALSoft/srcAndroid"]
+	path = OpenALSoft/srcAndroid
+	url = https://github.com/AnomalousMedical/openal-soft-apportable.git
+[submodule "OgreDeps/src"]
+	path = OgreDeps/src
+	url = https://github.com/AnomalousMedical/OgreDeps.git
