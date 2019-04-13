@@ -5,9 +5,9 @@ The currently supported environment is vs2017 and cmake 3.7.1. Other versions ma
 
 ## Building
 The easiest way to build is to open the Developer Command Prompt for vs 2017 and then run one of the following:
- * AutoBuild_Everything.bat - Auto builds the Windows and Android versions. Will also build the custom cmake used to generate android project files.
- * AutoBuild_Win32.bat - Build just the Windows version, both x86 and x64. You really need both for the downstream projects to work.
+ * AutoBuild_Win32.bat - Build the Windows version, both x86 and x64. You really need both for the downstream projects to work.
  * Autobuild_Android - Build the Android version. If you are going to build this by itself build AndroidPrereq.bat first to make the custom cmake, which is needed by the Android build.
+ You can run AutoBuild_AndroidWithPrereqs.bat to build the custom cmake and android at the same time.
 
 ## Unsupported Configurations
 There are a few more build configurations in this folder.
