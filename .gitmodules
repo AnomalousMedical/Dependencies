@@ -28,9 +28,6 @@
 [submodule "MyGUI/Src"]
 	path = MyGUI/Src
 	url = https://github.com/AnomalousMedical/mygui.git
-[submodule "Newtonsoft.Json"]
-	path = Newtonsoft.Json
-	url = https://github.com/AnomalousMedical/Newtonsoft.Json.git
 [submodule "oggvorbis"]
 	path = oggvorbis
 	url = https://github.com/AnomalousMedical/oggvorbis.git
