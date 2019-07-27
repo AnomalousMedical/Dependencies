@@ -26,7 +26,7 @@ rmdir /s /q %BuildPath%
 mkdir %BuildPath%
 cd %BuildPath%
 
-cmake -G "%GeneratorName%" %Variables% %SrcPath%
+cmake -G "%GeneratorName%" -A %Platform% %Variables% %SrcPath%
 nmake
 
 cd %CurrentDirectory%

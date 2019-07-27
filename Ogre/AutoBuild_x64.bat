@@ -3,7 +3,7 @@ set ThisFolder=%~dp0
 set RootDependencyFolder=%ThisFolder%..\
 
 ::Configuration Settings
-set GeneratorName=Visual Studio 15 Win64
+set GeneratorName=Visual Studio 16
 set Platform=x64
 set SrcFolder=src
 set BuildFolder=Win64Build
@@ -43,7 +43,7 @@ rmdir /s /q %BuildPath%
 mkdir %BuildPath%
 cd %BuildPath%
 
-cmake -G "%GeneratorName%" %Variables% %SrcPath%
+cmake -G "%GeneratorName%" -A %Platform% %Variables% %SrcPath%
 
 :: Small hack to remove FREEIMAGE_LIB from the preprocessor, dont want to hack up ogre cmake to support our method of building freeimge dynamically
 %RootDependencyFolder%CMakeHacks.exe replace %BuildPath% *.vcxproj ";FREEIMAGE_LIB;" ";"

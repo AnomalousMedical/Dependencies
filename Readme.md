@@ -1,7 +1,7 @@
 # Anomalous Medical Dependencies
 These are the dependencies that are needed to build Anomalous Medical.
 
-The currently supported environment is vs2017 and cmake 3.7.1. Other versions may work, but this is the tested configuration.
+The currently supported environment is vs2019, Windows 10 SDK 10.0.18362.0 and cmake 3.15.1. Other versions may work, but this is the tested configuration.
 
 ## Building
 The easiest way to build is to open the Developer Command Prompt for vs 2017 and then run one of the following:

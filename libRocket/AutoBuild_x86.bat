@@ -1,5 +1,5 @@
 ::Configuration Settings
-set GeneratorName=Visual Studio 15
+set GeneratorName=Visual Studio 16
 set Platform=Win32
 set SrcFolder=src\Build
 set BuildFolder=WindowsBuild
@@ -24,7 +24,7 @@ rmdir /s /q %BuildPath%
 mkdir %BuildPath%
 cd %BuildPath%
 
-cmake -G "%GeneratorName%" %Variables% %SrcPath%
+cmake -G "%GeneratorName%" -A %Platform% %Variables% %SrcPath%
 
 msbuild.exe "%SolutionName%" /property:Configuration=Debug;Platform=%Platform%
 msbuild.exe "%SolutionName%" /property:Configuration=Release;Platform=%Platform%
