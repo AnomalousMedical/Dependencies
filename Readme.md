@@ -9,6 +9,9 @@ The easiest way to build is to open the Developer Command Prompt for vs 2017 and
  * Autobuild_Android - Build the Android version. If you are going to build this by itself build AndroidPrereq.bat first to make the custom cmake, which is needed by the Android build.
  You can run AutoBuild_AndroidWithPrereqs.bat to build the custom cmake and android at the same time.
 
+## Android
+This version can build android, but you must install the 13b ndk and set ANDROID_NDK to the path. This will make the cmake scripts work, the version your visual studio was setup with (16b in this case) will still be used in compiling.
+
 ## Unsupported Configurations
 There are a few more build configurations in this folder.
 

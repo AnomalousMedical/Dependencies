@@ -1,5 +1,5 @@
 ::Configuration Settings
-set GeneratorName=Visual Studio 16 ARM
+set GeneratorName=Visual Studio 15 ARM
 set Platform=ARM
 set SrcFolder=src
 set BuildFolder=AndroidBuild
@@ -48,7 +48,7 @@ rmdir /s /q %BuildPath%
 mkdir %BuildPath%
 cd %BuildPath%
 
-%RootDependencyFolder%CMake-Modified\WindowsBuild\bin\Release\cmake -G "%GeneratorName%" -A %Platform% %Variables% %SrcPath%
+%RootDependencyFolder%CMake-Modified\WindowsBuild\bin\Release\cmake -G "%GeneratorName%" %Variables% %SrcPath%
 
 :: Small hack to fix the output file names since cmake cannot do this on its own for now
 %RootDependencyFolder%CMakeHacks.exe replace %BuildPath% *.vcxproj "<ObjectFileName>$(IntDir)</ObjectFileName>" "<ObjectFileName>$(IntDir)%%(filename).o</ObjectFileName>"
