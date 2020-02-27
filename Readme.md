@@ -3,6 +3,9 @@ These are the dependencies that are needed to build Anomalous Medical.
 
 The currently supported environment is vs2019, Windows 10 SDK 10.0.18362.0 and cmake 3.15.1. Other versions may work, but this is the tested configuration.
 
+## Cloning
+This repo uses submodules to include its dependencies. Be sure to clone with `--recursive` or run `git submodule update --init --recursive` after you clone it to make sure all the submodules are downloaded as well.
+
 ## Building
 The easiest way to build is to open the Developer Command Prompt for vs 2017 and then run one of the following:
  * AutoBuild_Win32.bat - Build the Windows version, both x86 and x64. You really need both for the downstream projects to work.
