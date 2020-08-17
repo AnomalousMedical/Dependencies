@@ -1,52 +1,52 @@
 [submodule "angle-ms"]
 	path = angle-ms
-	url = https://github.com/AnomalousMedical/angle.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/angle.git
 [submodule "BEPUPhysics"]
 	path = BEPUPhysics
-	url = https://github.com/AnomalousMedical/BEPUPhysics.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/BEPUPhysics.git
 [submodule "Bullet/src"]
 	path = Bullet/src
-	url = https://github.com/AnomalousMedical/bullet3.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/bullet3.git
 [submodule "DotNetZip"]
 	path = DotNetZip
-	url = https://github.com/AnomalousMedical/DotNetZip.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/DotNetZip.git
 [submodule "FreeImage.NET"]
 	path = FreeImage.NET
-	url = https://github.com/AnomalousMedical/FreeImage.NET.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/FreeImage.NET.git
 [submodule "Irony"]
 	path = Irony
-	url = https://github.com/AnomalousMedical/Irony.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/Irony.git
 [submodule "libRocket/src"]
 	path = libRocket/src
-	url = https://github.com/AnomalousMedical/libRocket.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/libRocket.git
 [submodule "Lucene.net"]
 	path = Lucene.net
-	url = https://github.com/AnomalousMedical/Lucene.NET.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/Lucene.NET.git
 [submodule "MSBuild"]
 	path = MSBuild
-	url = https://github.com/AnomalousMedical/MSBuildExtensions.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/MSBuildExtensions.git
 [submodule "MyGUI/Src"]
 	path = MyGUI/Src
-	url = https://github.com/AnomalousMedical/mygui.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/mygui.git
 [submodule "oggvorbis"]
 	path = oggvorbis
-	url = https://github.com/AnomalousMedical/oggvorbis.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/oggvorbis.git
 [submodule "OpenALSoft/src"]
 	path = OpenALSoft/src
-	url = https://github.com/AnomalousMedical/openal-soft.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openal-soft.git
 [submodule "OpenALSoft/srcAndroid"]
 	path = OpenALSoft/srcAndroid
-	url = https://github.com/AnomalousMedical/openal-soft-apportable.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openal-soft-apportable.git
 [submodule "OgreDeps/src"]
 	path = OgreDeps/src
-	url = https://github.com/AnomalousMedical/OgreDeps.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/OgreDeps.git
 [submodule "Ogre/src"]
 	path = Ogre/src
-	url = https://github.com/AnomalousMedical/ogre.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/ogre.git
 	branch = Anomalous
 [submodule "CMake-Modified/src"]
 	path = CMake-Modified/src
-	url = https://github.com/Anomalous-Software/CMake.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/CMake.git
 [submodule "openvr"]
 	path = openvr
-	url = https://github.com/AnomalousMedical/openvr.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openvr.git
