@@ -1,52 +1,52 @@
 [submodule "angle-ms"]
 	path = angle-ms
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/angle.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/angle
 [submodule "BEPUPhysics"]
 	path = BEPUPhysics
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/BEPUPhysics.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/BEPUPhysics
 [submodule "Bullet/src"]
 	path = Bullet/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/bullet3.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/bullet3
 [submodule "DotNetZip"]
 	path = DotNetZip
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/DotNetZip.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/DotNetZip
 [submodule "FreeImage.NET"]
 	path = FreeImage.NET
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/FreeImage.NET.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/FreeImage.NET
 [submodule "Irony"]
 	path = Irony
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/Irony.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/Irony
 [submodule "libRocket/src"]
 	path = libRocket/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/libRocket.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/libRocket
 [submodule "Lucene.net"]
 	path = Lucene.net
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/Lucene.NET.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/Lucene.NET
 [submodule "MSBuild"]
 	path = MSBuild
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/MSBuildExtensions.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/MSBuildExtensions
 [submodule "MyGUI/Src"]
 	path = MyGUI/Src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/mygui.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/mygui
 [submodule "oggvorbis"]
 	path = oggvorbis
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/oggvorbis.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/oggvorbis
 [submodule "OpenALSoft/src"]
 	path = OpenALSoft/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openal-soft.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openal-soft
 [submodule "OpenALSoft/srcAndroid"]
 	path = OpenALSoft/srcAndroid
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openal-soft-apportable.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openal-soft-apportable
 [submodule "OgreDeps/src"]
 	path = OgreDeps/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/OgreDeps.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/OgreDeps
 [submodule "Ogre/src"]
 	path = Ogre/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/ogre.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/ogre
 	branch = Anomalous
 [submodule "CMake-Modified/src"]
 	path = CMake-Modified/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/CMake.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/CMake
 [submodule "openvr"]
 	path = openvr
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openvr.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openvr
