@@ -4,7 +4,22 @@ These are the dependencies that are needed to build Anomalous Medical.
 The currently supported environment is vs2019, Windows 10 SDK 10.0.18362.0 and cmake 3.15.1. Other versions may work, but this is the tested configuration.
 
 ## Cloning
-This repo uses submodules to include its dependencies. Be sure to clone with `--recursive` or run `git submodule update --init --recursive` after you clone it to make sure all the submodules are downloaded as well.
+This repo uses submodules to include its dependencies. However, these are set to internal repositories by default. If you want to build from the GitHub mirror you will need to modify the .gitmodules file. Here is an example of how the bullet entry would need to change.
+```
+[submodule "Bullet/src"]
+	path = Bullet/src
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/bullet3
+```
+
+```
+[submodule "Bullet/src"]
+	path = Bullet/src
+	url = https://github.com/AnomalousMedical/bullet3.git
+```
+
+Replace `ssh://readwrite@anomalousgit.threax.com:2225/repo` with `https://github.com/AnomalousMedical` and add `.git` to the end.
+
+Next run `git submodule update --init --recursive` after you clone it to make sure all the submodules are downloaded as well.
 
 ## Building
 The easiest way to build is to open the Developer Command Prompt for vs 2017 and then run one of the following:
