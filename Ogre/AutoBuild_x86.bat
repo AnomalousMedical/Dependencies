@@ -32,11 +32,7 @@ set Variables=-D OGRE_BUILD_COMPONENT_MESHLODGENERATOR=0 ^
 -D OGRE_BUILD_COMPONENT_PROPERTY=0 ^
 -D EGL_INCLUDE_DIR=%RootDependencyFolder%\angle-ms\include\EGL ^
 -D EGL_egl_LIBRARY=%RootDependencyFolder%\angle-ms\src\Release_Win32\lib\libEGL.lib ^
--D OPENGLES2_INCLUDE_DIR=%RootDependencyFolder%\angle-ms\include ^
--D OPENGLES2_gl_LIBRARY=%RootDependencyFolder%\angle-ms\src\Release_Win32\lib\libGLESv2.lib ^
--D OPENGLES3_INCLUDE_DIR=%RootDependencyFolder%\angle-ms\include ^
--D OPENGLES3_gl_LIBRARY=%RootDependencyFolder%\angle-ms\src\Release_Win32\lib\libGLESv2.lib ^
--D OGRE_BUILD_RENDERSYSTEM_GLES2=1 ^
+-D OGRE_BUILD_RENDERSYSTEM_GLES2=0 ^
 -D OGRE_CONFIG_ENABLE_GLES3_SUPPORT=0 ^
 -D OGRE_DEPENDENCIES_DIR=%RootDependencyFolder%\OgreDeps\WindowsInstall
 
