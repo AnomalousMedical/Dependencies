@@ -50,3 +50,6 @@
 [submodule "openvr"]
 	path = openvr
 	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openvr
+[submodule "Diligent/DiligentCore"]
+	path = Diligent/DiligentCore
+	url = https://github.com/DiligentGraphics/DiligentCore.git
