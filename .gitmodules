@@ -53,3 +53,6 @@
 [submodule "Diligent/DiligentCore"]
 	path = Diligent/DiligentCore
 	url = https://github.com/DiligentGraphics/DiligentCore.git
+[submodule "bepuphysics2"]
+	path = bepuphysics2
+	url = ssh://readwrite@publicgit.threax.com:2223/repo/bepuphysics2
