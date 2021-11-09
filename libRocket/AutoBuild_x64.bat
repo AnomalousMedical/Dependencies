@@ -1,5 +1,5 @@
 ::Configuration Settings
-set GeneratorName=Visual Studio 16
+set GeneratorName=Visual Studio 17
 set Platform=x64
 set SrcFolder=src\Build
 set BuildFolder=Win64Build

@@ -3,7 +3,7 @@ set ThisFolder=%~dp0
 set RootDependencyFolder=%ThisFolder%..\
 
 ::Configuration Settings
-set GeneratorName=Visual Studio 16
+set GeneratorName=Visual Studio 17
 set Platform=x64
 set SrcFolder=src
 set BuildFolder=Win64Build

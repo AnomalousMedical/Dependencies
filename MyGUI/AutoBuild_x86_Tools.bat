@@ -1,5 +1,5 @@
 ::Configuration Settings
-set GeneratorName=Visual Studio 16
+set GeneratorName=Visual Studio 17
 set Platform=Win32
 set SrcFolder=src
 set BuildFolder=WindowsToolsBuild
