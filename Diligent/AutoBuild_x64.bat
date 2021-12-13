@@ -26,9 +26,6 @@ cd %BuildPath%
 
 cmake -G "%GeneratorName%" -A %Platform% %Variables% %SrcPath%
 
-:: Small hack to remove FREEIMAGE_LIB from the preprocessor, dont want to hack up ogre cmake to support our method of building freeimge dynamically
-%RootDependencyFolder%CMakeHacks.exe replace %BuildPath% *.vcxproj ";FREEIMAGE_LIB;" ";"
-
 msbuild.exe /m "%SolutionName%" /property:Configuration=Debug;Platform=%Platform%
 msbuild.exe /m "%SolutionName%" /property:Configuration=Release;Platform=%Platform%
 
