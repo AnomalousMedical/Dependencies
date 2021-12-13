@@ -52,7 +52,7 @@
 	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/openvr
 [submodule "Diligent/DiligentCore"]
 	path = Diligent/DiligentCore
-	url = https://github.com/DiligentGraphics/DiligentCore.git
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/DiligentCore
 [submodule "bepuphysics2"]
 	path = bepuphysics2
 	url = ssh://readwrite@publicgit.threax.com:2223/repo/bepuphysics2
