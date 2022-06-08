@@ -55,4 +55,4 @@
 	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/DiligentCore
 [submodule "bepuphysics2"]
 	path = bepuphysics2
-	url = ssh://readwrite@publicgit.threax.com:2223/repo/bepuphysics2
+	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/bepuphysics2
