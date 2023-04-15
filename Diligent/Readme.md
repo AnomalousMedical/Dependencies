@@ -3,6 +3,9 @@
 ## Install Vulkan SDK
 https://vulkan.lunarg.com/sdk/home
 
+## Visual Studio Requirements
+Make sure to install `C++ Desktop Development`. You need ATL, which should be included there.
+
 ## Windows Python
 You will need Python in the same folder as the Dependencies folder in a folder called Python. Just download and extract to there. Any 3+ version seems ok. Errors during cmake are probably because of this.
 
