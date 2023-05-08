@@ -10,7 +10,8 @@ set BuildFolder=Win64Build
 set SolutionName=DiligentCore.sln
 set Variables=-D PYTHON_EXECUTABLE="%ThisFolder%/../../Python/python.exe" ^
  -D DILIGENT_NO_OPENGL=1 ^
- -D DILIGENT_NO_DIRECT3D11=1
+ -D DILIGENT_NO_DIRECT3D11=1 ^
+ -D CMAKE_SYSTEM_VERSION=10.0.19041.0
 
 ::Less likely to need to change these.
 set CurrentDirectory=%CD%
