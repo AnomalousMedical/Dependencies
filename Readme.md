@@ -8,7 +8,7 @@ This repo uses submodules to include its dependencies. However, these are set to
 ```
 [submodule "Bullet/src"]
 	path = Bullet/src
-	url = ssh://readwrite@anomalousgit.threax.com:2225/repo/bullet3
+	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/bullet3
 ```
 
 ```
@@ -17,7 +17,7 @@ This repo uses submodules to include its dependencies. However, these are set to
 	url = https://github.com/AnomalousMedical/bullet3.git
 ```
 
-Replace `ssh://readwrite@anomalousgit.threax.com:2225/repo` with `https://github.com/AnomalousMedical` and add `.git` to the end.
+Replace `ssh://readwrite@anomalousgit.threax.com:32025/repo` with `https://github.com/AnomalousMedical` and add `.git` to the end.
 
 Next run `git submodule update --init --recursive` after you clone it to make sure all the submodules are downloaded as well.
 
