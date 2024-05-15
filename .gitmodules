@@ -53,3 +53,6 @@
 [submodule "bepuphysics2"]
 	path = bepuphysics2
 	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/bepuphysics2
+[submodule "Diligent/DiligentCore"]
+	path = Diligent/DiligentCore
+	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/DiligentCore-Backup
