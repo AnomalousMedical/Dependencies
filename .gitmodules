@@ -50,9 +50,6 @@
 [submodule "openvr"]
 	path = openvr
 	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/openvr
-[submodule "Diligent/DiligentCore"]
-	path = Diligent/DiligentCore
-	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/DiligentCore
 [submodule "bepuphysics2"]
 	path = bepuphysics2
 	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/bepuphysics2
