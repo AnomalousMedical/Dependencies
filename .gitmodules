@@ -56,3 +56,9 @@
 [submodule "Diligent/DiligentCore"]
 	path = Diligent/DiligentCore
 	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/DiligentCore-Backup
+[submodule "Steamworks/Steamworks.Net"]
+	path = Steamworks/Steamworks.Net
+	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/Steamworks.Net
+[submodule "Steamworks/SteamworksSdk"]
+	path = Steamworks/SteamworksSdk
+	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/SteamworksSdk
