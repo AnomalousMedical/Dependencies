@@ -19,6 +19,8 @@ This repo uses submodules to include its dependencies. However, these are set to
 
 Replace `ssh://readwrite@anomalousgit.threax.com:32025/repo` with `https://github.com/AnomalousMedical` and add `.git` to the end.
 
+Also remove the `Steamworks/SteamworksSdk` submodule. You won't need this to build and the engine will work without the Steam dll.
+
 Next run `git submodule update --init --recursive` after you clone it to make sure all the submodules are downloaded as well.
 
 ## Building
