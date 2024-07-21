@@ -62,3 +62,6 @@
 [submodule "Steamworks/SteamworksSdk"]
 	path = Steamworks/SteamworksSdk
 	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/SteamworksSdk
+[submodule "Steamworks/Steamworks.NET"]
+	path = Steamworks/Steamworks.NET
+	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/Steamworks.NET
