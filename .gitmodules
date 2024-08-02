@@ -65,3 +65,6 @@
 [submodule "Steamworks/Steamworks.NET"]
 	path = Steamworks/Steamworks.NET
 	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/Steamworks.NET
+[submodule "SharpGLTF"]
+	path = SharpGLTF
+	url = ssh://readwrite@anomalousgit.threax.com:32025/repo/SharpGLTF
