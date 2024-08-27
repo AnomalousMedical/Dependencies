@@ -4,12 +4,8 @@ set Platform=Win32
 set SrcFolder=src
 set BuildFolder=WindowsBuild
 set SolutionName=OpenAL.sln
-set Variables=-D EXAMPLES=0 ^
--D MMDEVAPI=0 ^
--D UTILS=0 ^
--D WAVE=0 ^
--D WINMM=0 ^
--D ALSOFT_CONFIG=0
+set Variables=-D ALSOFT_EXAMPLES=0 ^
+-D ALSOFT_INSTALL_CONFIG=0
 
 ::Less likely to need to change these.
 set ThisFolder=%~dp0
